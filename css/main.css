@@ -65,9 +65,9 @@ body {
 }
 
 .robot:hover .robot-head-left {
-  transform: translateX(-70px);
+  transform: translateX(70px);
 }
 
 .robot:hover .robot-brain {
-  transform: translateY(-50px);
+  transform: translateY(-25px);
 }
