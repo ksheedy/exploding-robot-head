@@ -29,17 +29,20 @@ body {
   width: 320px;
   position: relative;
   bottom: 0;
+  top: 5px;
 }
 
 .robot-brain {
   width: 46px;
   position: relative;
-  bottom: 0;
+  bottom: 6rem;
+  z-index: 50;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
-  position: relative;
-  bottom: 10px;
+  position: absolute;
+  top: 5px;
+  z-index: 100;
 }
