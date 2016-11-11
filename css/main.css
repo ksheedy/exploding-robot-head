@@ -17,32 +17,44 @@ body {
   background-color: #2b3851;
   position: absolute;
   width: 100%;
-  text-align: center;
 }
 
 .robot {
   width: 320px;
-  display: inline;
+  position: relative;
+  display: inline-block;
 }
 
 .robot-body {
   width: 320px;
   position: relative;
   bottom: 0;
-  top: 5px;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .robot-brain {
   width: 46px;
-  position: relative;
-  bottom: 6rem;
+  position: absolute;
   z-index: 50;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
   position: absolute;
-  top: 5px;
+  top: 20px;
   z-index: 100;
+}
+
+.robot-head-left {
+  right: 50%;
+}
+
+.robot-head-right {
+  left: 50%;
 }
