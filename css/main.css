@@ -60,10 +60,14 @@ body {
   left: 50%;
 }
 
-.robot-head-right:hover {
-  transform: translateX(75px);
+.robot:hover .robot-head-right {
+  transform: translateX(70px);
 }
 
-.robot-head-left:hover {
-  transform: translateX(-75px);
+.robot:hover .robot-head-left {
+  transform: translateX(-70px);
+}
+
+.robot:hover .robot-brain {
+  transform: translateY(-50px);
 }
