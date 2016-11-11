@@ -59,3 +59,11 @@ body {
 .robot-head-right {
   left: 50%;
 }
+
+.robot-head-right:hover {
+  right: -30px;
+}
+
+.robot-head-left:hover {
+  left: -30px;
+}
