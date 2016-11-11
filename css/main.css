@@ -61,9 +61,9 @@ body {
 }
 
 .robot-head-right:hover {
-  right: -30px;
+  transform: translateX(75px);
 }
 
 .robot-head-left:hover {
-  left: -30px;
+  transform: translateX(-75px);
 }
